@@ -1,0 +1,6 @@
+[template]
+src = "server.cfg.tmpl"
+dest = "/opt/l4d2/"
+keys = [
+  
+]
