@@ -1,4 +1,0 @@
-login anonymous
-force_install_dir /home/gamekick/server/
-app_update <%= @game[:key] %>
-quit
