@@ -9,7 +9,6 @@ if [ "$ACTION_KEY" == "start" ]; then
     set_info_value "status" "Starting"
     /etc/init.d/game_server start
     set_info_value "status" "Running"
-    post_start
 elif [[ "$ACTION_KEY" == "stop" ]]; then
     set_info_value "status" "Stopping"
     /etc/init.d/game_server stop
