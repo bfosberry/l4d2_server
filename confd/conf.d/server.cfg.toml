@@ -1,0 +1,28 @@
+[template]
+src = "server.cfg.tmpl"
+dest = "/opt/server/cfg/server.cfg"
+keys = [
+  "/hostname",
+  "/rcon_password",
+  "/sv_search_key",
+  "/sv_password",
+  "/sv_alltalk",
+  "/sv_consistency",
+  "/sv_contact",
+  "/sv_voiceenable",
+  "/sv_region",
+  "/sv_log_onefile",
+  "/sv/logbans",
+  "/sv_lan",
+  "/sv_pure",
+  "/sv_cheats",
+  "/sv_gametypes",
+  "/sv_unlag",
+  "/sv_maxunlag",
+  "/sv_steamgroup",
+  "/sv_steamgroup_exclusive",
+  "/mp_disable_autokick",
+  "/sv_allow_lobby_connect_only",
+  "/sv_forcepreload",
+  "/sv/pure_kick_clients"
+]

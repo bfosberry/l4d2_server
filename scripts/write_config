@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. gamekick_common
+
+confd -verbose -onetime -node "http://$ETCD_SERVER" -confdir /opt/server/confd/ -prefix "/_$SERVER_ID/config"

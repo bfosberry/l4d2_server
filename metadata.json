@@ -97,9 +97,9 @@
     { "name" : "Single Log File",
       "key" : "sv_log_onefile",
       "type" : "intbool",
-      "default_value": 0,
+      "default_value": 1,
       "required": true,
-      "customizable" : true
+      "customizable" : false
     },
     { "name" : "Log Bans",
       "key" : "sv_logbans",
@@ -164,11 +164,39 @@
       "required": false,
       "customizable" : true
     },
-    { "name" : "Disable Autokick",
+    { 
+      "name" : "Disable Autokick",
       "key" : "mp_disable_autokick",
-      "type" : "bool",
+      "type" : "intbool",
+      "default_value": 0,
+      "required": false,
       "customizable" : true
-    }
+    },
+    { 
+      "name" : "Lobby Connect Only",
+      "key" : "sv_allow_lobby_connect_only",
+      "type" : "intbool",
+      "default_value": 0,
+      "required": false,
+      "customizable" : true
+    },
+    { 
+      "name" : "Force Preload",
+      "key" : "sv_forcepreload",
+      "type" : "intbool",
+      "default_value": 0,
+      "required": false,
+      "customizable" : true
+    },
+    { 
+      "name" : "Pure Kick",
+      "key" : "sv_pure_kick_clients",
+      "type" : "intbool",
+      "default_value": 0,
+      "required": false,
+      "customizable" : true
+    },
+    
   ],
   "maps": [
     "c1m1_hotel",

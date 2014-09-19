@@ -1,0 +1,30 @@
+hostname "{{ .hostname }}"
+rcon_password "{{ .rcon_password }}"
+sv_search_key {{ .sv_search_key }}
+{{ if .sv_password }} sv_password "{{ .sv_password }}"{{ end }}
+
+sv_alltalk {{ .sv_alltalk }}
+sv_consistency {{ .sv_consistency }}
+{{ if .sv_contact }} sv_contact "{{ .sv_contact }}"{{ end }}
+sv_voiceenable {{ .sv_voiceenable }}
+sv_region {{ .sv_region }}
+sv_log_onefile {{ .sv_log_onefile }}
+sv_logbans {{ .sv_logbans }}
+sv_lan {{ .sv_lan }}
+sv_pure {{ .sv_pure }}
+sv_cheats {{ .sv_cheats }}
+{{ if .sv_gametypes }} sv_gametypes "{{ .sv_gametypes }}"{{ end }}
+{{ if .sv_unlag }} sv_unlag {{ .sv_unlag }}{{ end }}
+{{ if .sv_maxunlag }} sv_maxunlag {{ .sv_maxunlag }}{{ end }}
+{{ if .sv_steamgroup }} sv_steamgroup "{{ .sv_steamgroup }}"{{ end }}
+{{ if .sv_steamgroup_exclusive }} sv_steamgroup_exclusive {{ .sv_steamgroup_exclusive }}{{ end }}
+{{ if .mp_disable_autokick }} mp_disable_autokick {{ .mp_disable_autokick }}{{ end }}
+{{ if .sv_allow_lobby_connect_only }} sv_allow_lobby_connect_only {{ .sv_allow_lobby_connect_only }}{{ end }}
+{{ if .sv_forcepreload }} sv_forcepreload {{ .sv_forcepreload }}{{ end }}
+{{ if .sv_pure_kick_clients }} sv_pure_kick_clients {{ .sv_pure_kick_clients }}{{ end 
+
+setmaster add 213.239.209.221:27011
+setmaster add 72.165.61.189:27011
+setmaster add 68.142.72.250:27011
+setmaster add 69.28.140.246:27011
+setmaster add 69.28.140.247:27011
