@@ -195,8 +195,7 @@
       "default_value": 0,
       "required": false,
       "customizable" : true
-    },
-    
+    }
   ],
   "maps": [
     "c1m1_hotel",

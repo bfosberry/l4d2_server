@@ -2,6 +2,6 @@
 src = "start.sh.tmpl"
 dest = "/opt/server/scripts/start.sh"
 keys = [
-  "/max_players",
-  "/starting_map",
+  "/_$SERVER_ID/config/max_players",
+  "/_$SERVER_ID/config/starting_map",
 ]
