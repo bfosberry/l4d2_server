@@ -9,6 +9,7 @@ ENV PORT 27015
 
 USER root
 ADD ./confd /opt/server/confd
+MKDIR /opt/server/cfg
 RUN chown -R steam.steam /opt/*
 USER steam
 #define ports
