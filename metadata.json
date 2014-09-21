@@ -195,6 +195,22 @@
       "default_value": 0,
       "required": false,
       "customizable" : true
+    },
+    { 
+      "name" : "Max Players",
+      "key" : "max_players",
+      "type" : "integer",
+      "default_value": 8,
+      "required": true,
+      "customizable" : true
+    },
+    { 
+      "name" : "Starting Map",
+      "key" : "starting_map",
+      "type" : "string",
+      "default_value": "c1m1_hotel",
+      "required": true,
+      "customizable" : true
     }
   ],
   "maps": [
