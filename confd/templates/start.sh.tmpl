@@ -1,1 +1,1 @@
-/opt/server/srcds_run  -autoupdate -steam_dir /opt/steam/ -steamcmd_script /opt/server/scripts/update_script -game left4dead2 +map  "{{ .starting_map }}" +maxplayers {{ .max_players }} -port $PORT
+/opt/server/srcds_run -steam_dir /opt/steam/ -game left4dead2 +map  "{{ .starting_map }}" +maxplayers {{ .max_players }} -strictportbind +clientport $PORT -ip 0.0.0.0 -port $PORT
