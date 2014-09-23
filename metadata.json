@@ -3,7 +3,7 @@
     "name" : "l4d2",
     "version" : "latest",
     "arch" : "amd64",
-    "docker_recipe" : "bfosberry/l4d2"
+    "docker_recipe" : "bfosberry/l4d2-server"
   },
   "provides" : [
     { "name" : "Status",
