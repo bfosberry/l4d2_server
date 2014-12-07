@@ -1,6 +1,6 @@
 [template]
-src = "start.sh.tmpl"
-dest = "/opt/server/scripts/start.sh"
+src = "run.tmpl"
+dest = "/opt/server/scripts/run"
 keys = [
   "/_$SERVER_ID/config/max_players",
   "/_$SERVER_ID/config/starting_map",

@@ -20,15 +20,10 @@
     }
   ],
   "responds_to" : [
-    { "name": "Restart",
-      "key": "restart",
-      "type": "bool" },
-    { "name": "Delete Logs",
-      "key": "delete_logs",
-      "type": "bool" },
-    { "name": "Reset",
-      "key": "reset",
-      "type": "bool" }
+    { "name": "Decom",
+      "key": "decom",
+      "args": []
+    }
   ],
   "requires" : [
     { "name" : "Hostname",
