@@ -7,12 +7,14 @@ MAINTAINER bfosberry
 
 ENV PORT 27015
 
-USER root
 ADD ./confd /opt/server/confd
 RUN mkdir /opt/server/cfg
-RUN chown -R steam.steam /opt/
-USER steam
+RUN sudo chown -R appuser:appuser /opt/
+
+WORKDIR /opt/server
 #define ports
+EXPOSE 26901/udp
+EXPOSE 27005/udp
 EXPOSE 27015
 EXPOSE 27015/udp
-EXPOSE 27020
+EXPOSE 27020/udp

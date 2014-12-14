@@ -1,6 +1,7 @@
 [template]
 src = "run.tmpl"
 dest = "/opt/server/scripts/run"
+mode = "777"
 keys = [
   "/_$SERVER_ID/config/max_players",
   "/_$SERVER_ID/config/starting_map",
